@@ -38,6 +38,9 @@
         
         margin-top: 2%;
     }
+    .linebreak{
+        display: none;
+    }
 }
 
 
@@ -89,3 +92,7 @@
     text-align: left;
 }
     
+@media screen and (min-width: 1023px) and (max-width: 1400px){
+    .container{max-width: 900px;
+    }
+}
