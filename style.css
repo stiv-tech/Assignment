@@ -27,12 +27,9 @@
     .lining{
         display: none;
     }
-    .first{
-        margin-top: 50px;
-        text-align: center;
-    }
-    .head-item-3{
-        line-break: none;
+ 
+    .head-item-3 br{
+        display: none;
     }
     .log-btn{
         
@@ -40,6 +37,14 @@
     }
     .linebreak{
         display: none;
+    }
+    .img-wid, .wife{
+        flex: 1;
+        width: 100%;
+        padding: 10px;
+    }
+    .head-item-3{
+        text-align: center;
     }
 }
 
